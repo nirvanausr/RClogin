@@ -1,0 +1,40 @@
+/*le banner*/
+
+.cta {
+    background: linear-gradient(rgba(40, 58, 90, 0.9), rgba(40, 58, 90, 0.9)), url("../img/banner.jpg") fixed center center;
+    background-size: cover;
+    padding: 100px 0;
+}
+
+@keyframes opa {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+
+/*les card */
+
+.lacard {
+    animation-name: opa;
+    animation-duration: 5s;
+}
+
+.lacard:hover {
+    transform: scale(1.1);
+}
+
+
+/*la police */
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: "Jost", sans-serif;
+}
